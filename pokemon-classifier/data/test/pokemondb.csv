@@ -1,0 +1,810 @@
+,Name,id,Primary Type,Secondary Type,Generation,Other name
+0,Bulbasaur,1,Grass,Poison,Generation 1,Seed Pokémon
+1,Ivysaur,2,Grass,Poison,Generation 1,Seed Pokémon
+2,Venusaur,3,Grass,Poison,Generation 1,Seed Pokémon
+3,Charmander,4,Fire,None,Generation 1,Lizard Pokémon
+4,Charmeleon,5,Fire,None,Generation 1,Flame Pokémon
+5,Charizard,6,Fire,Flying,Generation 1,Flame Pokémon
+6,Squirtle,7,Water,None,Generation 1,Tiny Turtle Pokémon
+7,Wartortle,8,Water,None,Generation 1,Turtle Pokémon
+8,Blastoise,9,Water,None,Generation 1,Shellfish Pokémon
+9,Caterpie,10,Bug,None,Generation 1,Worm Pokémon
+10,Metapod,11,Bug,None,Generation 1,Cocoon Pokémon
+11,Butterfree,12,Bug,Flying,Generation 1,Butterfly Pokémon
+12,Weedle,13,Bug,Poison,Generation 1,Hairy Bug Pokémon
+13,Kakuna,14,Bug,Poison,Generation 1,Cocoon Pokémon
+14,Beedrill,15,Bug,Poison,Generation 1,Poison Bee Pokémon
+15,Pidgey,16,Normal,Flying,Generation 1,Tiny Bird Pokémon
+16,Pidgeotto,17,Normal,Flying,Generation 1,Bird Pokémon
+17,Pidgeot,18,Normal,Flying,Generation 1,Bird Pokémon
+18,Rattata,19,Normal,None,Generation 1,Mouse Pokémon
+19,Raticate,20,Normal,None,Generation 1,Mouse Pokémon
+20,Spearow,21,Normal,Flying,Generation 1,Tiny Bird Pokémon
+21,Fearow,22,Normal,Flying,Generation 1,Beak Pokémon
+22,Ekans,23,Poison,None,Generation 1,Snake Pokémon
+23,Arbok,24,Poison,None,Generation 1,Cobra Pokémon
+24,Pikachu,25,Electric,None,Generation 1,Mouse Pokémon
+25,Raichu,26,Electric,None,Generation 1,Mouse Pokémon
+26,Sandshrew,27,Ground,None,Generation 1,Mouse Pokémon
+27,Sandslash,28,Ground,None,Generation 1,Mouse Pokémon
+28,Nidoran♀,29,Poison,None,Generation 1,Poison Pin Pokémon
+29,Nidorina,30,Poison,None,Generation 1,Poison Pin Pokémon
+30,Nidoqueen,31,Poison,Ground,Generation 1,Drill Pokémon
+31,Nidoran♂,32,Poison,None,Generation 1,Poison Pin Pokémon
+32,Nidorino,33,Poison,None,Generation 1,Poison Pin Pokémon
+33,Nidoking,34,Poison,Ground,Generation 1,Drill Pokémon
+34,Clefairy,35,Fairy,None,Generation 1,Fairy Pokémon
+35,Clefable,36,Fairy,None,Generation 1,Fairy Pokémon
+36,Vulpix,37,Fire,None,Generation 1,Fox Pokémon
+37,Ninetales,38,Fire,None,Generation 1,Fox Pokémon
+38,Jigglypuff,39,Normal,Fairy,Generation 1,Balloon Pokémon
+39,Wigglytuff,40,Normal,Fairy,Generation 1,Balloon Pokémon
+40,Zubat,41,Poison,Flying,Generation 1,Bat Pokémon
+41,Golbat,42,Poison,Flying,Generation 1,Bat Pokémon
+42,Oddish,43,Grass,Poison,Generation 1,Weed Pokémon
+43,Gloom,44,Grass,Poison,Generation 1,Weed Pokémon
+44,Vileplume,45,Grass,Poison,Generation 1,Flower Pokémon
+45,Paras,46,Bug,Grass,Generation 1,Mushroom Pokémon
+46,Parasect,47,Bug,Grass,Generation 1,Mushroom Pokémon
+47,Venonat,48,Bug,Poison,Generation 1,Insect Pokémon
+48,Venomoth,49,Bug,Poison,Generation 1,Poison Moth Pokémon
+49,Diglett,50,Ground,None,Generation 1,Mole Pokémon
+50,Dugtrio,51,Ground,None,Generation 1,Mole Pokémon
+51,Meowth,52,Normal,None,Generation 1,Scratch Cat Pokémon
+52,Persian,53,Normal,None,Generation 1,Classy Cat Pokémon
+53,Psyduck,54,Water,None,Generation 1,Duck Pokémon
+54,Golduck,55,Water,None,Generation 1,Duck Pokémon
+55,Mankey,56,Fighting,None,Generation 1,Pig Monkey Pokémon
+56,Primeape,57,Fighting,None,Generation 1,Pig Monkey Pokémon
+57,Growlithe,58,Fire,None,Generation 1,Puppy Pokémon
+58,Arcanine,59,Fire,None,Generation 1,Legendary Pokémon
+59,Poliwag,60,Water,None,Generation 1,Tadpole Pokémon
+60,Poliwhirl,61,Water,None,Generation 1,Tadpole Pokémon
+61,Poliwrath,62,Water,Fighting,Generation 1,Tadpole Pokémon
+62,Abra,63,Psychic,None,Generation 1,Psi Pokémon
+63,Kadabra,64,Psychic,None,Generation 1,Psi Pokémon
+64,Alakazam,65,Psychic,None,Generation 1,Psi Pokémon
+65,Machop,66,Fighting,None,Generation 1,Superpower Pokémon
+66,Machoke,67,Fighting,None,Generation 1,Superpower Pokémon
+67,Machamp,68,Fighting,None,Generation 1,Superpower Pokémon
+68,Bellsprout,69,Grass,Poison,Generation 1,Flower Pokémon
+69,Weepinbell,70,Grass,Poison,Generation 1,Flycatcher Pokémon
+70,Victreebel,71,Grass,Poison,Generation 1,Flycatcher Pokémon
+71,Tentacool,72,Water,Poison,Generation 1,Jellyfish Pokémon
+72,Tentacruel,73,Water,Poison,Generation 1,Jellyfish Pokémon
+73,Geodude,74,Rock,Ground,Generation 1,Rock Pokémon
+74,Graveler,75,Rock,Ground,Generation 1,Rock Pokémon
+75,Golem,76,Rock,Ground,Generation 1,Megaton Pokémon
+76,Ponyta,77,Fire,None,Generation 1,Fire Horse Pokémon
+77,Rapidash,78,Fire,None,Generation 1,Fire Horse Pokémon
+78,Slowpoke,79,Water,Psychic,Generation 1,Dopey Pokémon
+79,Slowbro,80,Water,Psychic,Generation 1,Hermit Crab Pokémon
+80,Magnemite,81,Electric,Steel,Generation 1,Magnet Pokémon
+81,Magneton,82,Electric,Steel,Generation 1,Magnet Pokémon
+82,Farfetch'd,83,Normal,Flying,Generation 1,Wild Duck Pokémon
+83,Doduo,84,Normal,Flying,Generation 1,Twin Bird Pokémon
+84,Dodrio,85,Normal,Flying,Generation 1,Triple Bird Pokémon
+85,Seel,86,Water,None,Generation 1,Sea Lion Pokémon
+86,Dewgong,87,Water,Ice,Generation 1,Sea Lion Pokémon
+87,Grimer,88,Poison,None,Generation 1,Sludge Pokémon
+88,Muk,89,Poison,None,Generation 1,Sludge Pokémon
+89,Shellder,90,Water,None,Generation 1,Bivalve Pokémon
+90,Cloyster,91,Water,Ice,Generation 1,Bivalve Pokémon
+91,Gastly,92,Ghost,Poison,Generation 1,Gas Pokémon
+92,Haunter,93,Ghost,Poison,Generation 1,Gas Pokémon
+93,Gengar,94,Ghost,Poison,Generation 1,Shadow Pokémon
+94,Onix,95,Rock,Ground,Generation 1,Rock Snake Pokémon
+95,Drowzee,96,Psychic,None,Generation 1,Hypnosis Pokémon
+96,Hypno,97,Psychic,None,Generation 1,Hypnosis Pokémon
+97,Krabby,98,Water,None,Generation 1,River Crab Pokémon
+98,Kingler,99,Water,None,Generation 1,Pincer Pokémon
+99,Voltorb,100,Electric,None,Generation 1,Ball Pokémon
+100,Electrode,101,Electric,None,Generation 1,Ball Pokémon
+101,Exeggcute,102,Grass,Psychic,Generation 1,Egg Pokémon
+102,Exeggutor,103,Grass,Psychic,Generation 1,Coconut Pokémon
+103,Cubone,104,Ground,None,Generation 1,Lonely Pokémon
+104,Marowak,105,Ground,None,Generation 1,Bone Keeper Pokémon
+105,Hitmonlee,106,Fighting,None,Generation 1,Kicking Pokémon
+106,Hitmonchan,107,Fighting,None,Generation 1,Punching Pokémon
+107,Lickitung,108,Normal,None,Generation 1,Licking Pokémon
+108,Koffing,109,Poison,None,Generation 1,Poison Gas Pokémon
+109,Weezing,110,Poison,None,Generation 1,Poison Gas Pokémon
+110,Rhyhorn,111,Ground,Rock,Generation 1,Spikes Pokémon
+111,Rhydon,112,Ground,Rock,Generation 1,Drill Pokémon
+112,Chansey,113,Normal,None,Generation 1,Egg Pokémon
+113,Tangela,114,Grass,None,Generation 1,Vine Pokémon
+114,Kangaskhan,115,Normal,None,Generation 1,Parent Pokémon
+115,Horsea,116,Water,None,Generation 1,Dragon Pokémon
+116,Seadra,117,Water,None,Generation 1,Dragon Pokémon
+117,Goldeen,118,Water,None,Generation 1,Goldfish Pokémon
+118,Seaking,119,Water,None,Generation 1,Goldfish Pokémon
+119,Staryu,120,Water,None,Generation 1,Star Shape Pokémon
+120,Starmie,121,Water,Psychic,Generation 1,Mysterious Pokémon
+121,Mr. Mime,122,Psychic,Fairy,Generation 1,Barrier Pokémon
+122,Scyther,123,Bug,Flying,Generation 1,Mantis Pokémon
+123,Jynx,124,Ice,Psychic,Generation 1,Human Shape Pokémon
+124,Electabuzz,125,Electric,None,Generation 1,Electric Pokémon
+125,Magmar,126,Fire,None,Generation 1,Spitfire Pokémon
+126,Pinsir,127,Bug,None,Generation 1,Stag Beetle Pokémon
+127,Tauros,128,Normal,None,Generation 1,Wild Bull Pokémon
+128,Magikarp,129,Water,None,Generation 1,Fish Pokémon
+129,Gyarados,130,Water,Flying,Generation 1,Atrocious Pokémon
+130,Lapras,131,Water,Ice,Generation 1,Transport Pokémon
+131,Ditto,132,Normal,None,Generation 1,Transform Pokémon
+132,Eevee,133,Normal,None,Generation 1,Evolution Pokémon
+133,Vaporeon,134,Water,None,Generation 1,Bubble Jet Pokémon
+134,Jolteon,135,Electric,None,Generation 1,Lightning Pokémon
+135,Flareon,136,Fire,None,Generation 1,Flame Pokémon
+136,Porygon,137,Normal,None,Generation 1,Virtual Pokémon
+137,Omanyte,138,Rock,Water,Generation 1,Spiral Pokémon
+138,Omastar,139,Rock,Water,Generation 1,Spiral Pokémon
+139,Kabuto,140,Rock,Water,Generation 1,Shellfish Pokémon
+140,Kabutops,141,Rock,Water,Generation 1,Shellfish Pokémon
+141,Aerodactyl,142,Rock,Flying,Generation 1,Fossil Pokémon
+142,Snorlax,143,Normal,None,Generation 1,Sleeping Pokémon
+143,Articuno,144,Ice,Flying,Generation 1,Freeze Pokémon
+144,Zapdos,145,Electric,Flying,Generation 1,Electric Pokémon
+145,Moltres,146,Fire,Flying,Generation 1,Flame Pokémon
+146,Dratini,147,Dragon,None,Generation 1,Dragon Pokémon
+147,Dragonair,148,Dragon,None,Generation 1,Dragon Pokémon
+148,Dragonite,149,Dragon,Flying,Generation 1,Dragon Pokémon
+149,Mewtwo,150,Psychic,None,Generation 1,Genetic Pokémon
+150,Mew,151,Psychic,None,Generation 1,New Species Pokémon
+151,Chikorita,152,Grass,None,Generation 2,Leaf Pokémon
+152,Bayleef,153,Grass,None,Generation 2,Leaf Pokémon
+153,Meganium,154,Grass,None,Generation 2,Herb Pokémon
+154,Cyndaquil,155,Fire,None,Generation 2,Fire Mouse Pokémon
+155,Quilava,156,Fire,None,Generation 2,Volcano Pokémon
+156,Typhlosion,157,Fire,None,Generation 2,Volcano Pokémon
+157,Totodile,158,Water,None,Generation 2,Big Jaw Pokémon
+158,Croconaw,159,Water,None,Generation 2,Big Jaw Pokémon
+159,Feraligatr,160,Water,None,Generation 2,Big Jaw Pokémon
+160,Sentret,161,Normal,None,Generation 2,Scout Pokémon
+161,Furret,162,Normal,None,Generation 2,Long Body Pokémon
+162,Hoothoot,163,Normal,Flying,Generation 2,Owl Pokémon
+163,Noctowl,164,Normal,Flying,Generation 2,Owl Pokémon
+164,Ledyba,165,Bug,Flying,Generation 2,Five Star Pokémon
+165,Ledian,166,Bug,Flying,Generation 2,Five Star Pokémon
+166,Spinarak,167,Bug,Poison,Generation 2,String Spit Pokémon
+167,Ariados,168,Bug,Poison,Generation 2,Long Leg Pokémon
+168,Crobat,169,Poison,Flying,Generation 2,Bat Pokémon
+169,Chinchou,170,Water,Electric,Generation 2,Angler Pokémon
+170,Lanturn,171,Water,Electric,Generation 2,Light Pokémon
+171,Pichu,172,Electric,None,Generation 2,Tiny Mouse Pokémon
+172,Cleffa,173,Fairy,None,Generation 2,Star Shape Pokémon
+173,Igglybuff,174,Normal,Fairy,Generation 2,Balloon Pokémon
+174,Togepi,175,Fairy,None,Generation 2,Spike Ball Pokémon
+175,Togetic,176,Fairy,Flying,Generation 2,Happiness Pokémon
+176,Natu,177,Psychic,Flying,Generation 2,Tiny Bird Pokémon
+177,Xatu,178,Psychic,Flying,Generation 2,Mystic Pokémon
+178,Mareep,179,Electric,None,Generation 2,Wool Pokémon
+179,Flaaffy,180,Electric,None,Generation 2,Wool Pokémon
+180,Ampharos,181,Electric,None,Generation 2,Light Pokémon
+181,Bellossom,182,Grass,None,Generation 2,Flower Pokémon
+182,Marill,183,Water,Fairy,Generation 2,Aqua Mouse Pokémon
+183,Azumarill,184,Water,Fairy,Generation 2,Aqua Rabbit Pokémon
+184,Sudowoodo,185,Rock,None,Generation 2,Imitation Pokémon
+185,Politoed,186,Water,None,Generation 2,Frog Pokémon
+186,Hoppip,187,Grass,Flying,Generation 2,Cottonweed Pokémon
+187,Skiploom,188,Grass,Flying,Generation 2,Cottonweed Pokémon
+188,Jumpluff,189,Grass,Flying,Generation 2,Cottonweed Pokémon
+189,Aipom,190,Normal,None,Generation 2,Long Tail Pokémon
+190,Sunkern,191,Grass,None,Generation 2,Seed Pokémon
+191,Sunflora,192,Grass,None,Generation 2,Sun Pokémon
+192,Yanma,193,Bug,Flying,Generation 2,Clear Wing Pokémon
+193,Wooper,194,Water,Ground,Generation 2,Water Fish Pokémon
+194,Quagsire,195,Water,Ground,Generation 2,Water Fish Pokémon
+195,Espeon,196,Psychic,None,Generation 2,Sun Pokémon
+196,Umbreon,197,Dark,None,Generation 2,Moonlight Pokémon
+197,Murkrow,198,Dark,Flying,Generation 2,Darkness Pokémon
+198,Slowking,199,Water,Psychic,Generation 2,Royal Pokémon
+199,Misdreavus,200,Ghost,None,Generation 2,Screech Pokémon
+200,Unown,201,Psychic,None,Generation 2,Symbol Pokémon
+201,Wobbuffet,202,Psychic,None,Generation 2,Patient Pokémon
+202,Girafarig,203,Normal,Psychic,Generation 2,Long Neck Pokémon
+203,Pineco,204,Bug,None,Generation 2,Bagworm Pokémon
+204,Forretress,205,Bug,Steel,Generation 2,Bagworm Pokémon
+205,Dunsparce,206,Normal,None,Generation 2,Land Snake Pokémon
+206,Gligar,207,Ground,Flying,Generation 2,FlyScorpion Pokémon
+207,Steelix,208,Steel,Ground,Generation 2,Iron Snake Pokémon
+208,Snubbull,209,Fairy,None,Generation 2,Fairy Pokémon
+209,Granbull,210,Fairy,None,Generation 2,Fairy Pokémon
+210,Qwilfish,211,Water,Poison,Generation 2,Balloon Pokémon
+211,Scizor,212,Bug,Steel,Generation 2,Pincer Pokémon
+212,Shuckle,213,Bug,Rock,Generation 2,Mold Pokémon
+213,Heracross,214,Bug,Fighting,Generation 2,Single Horn Pokémon
+214,Sneasel,215,Dark,Ice,Generation 2,Sharp Claw Pokémon
+215,Teddiursa,216,Normal,None,Generation 2,Little Bear Pokémon
+216,Ursaring,217,Normal,None,Generation 2,Hibernator Pokémon
+217,Slugma,218,Fire,None,Generation 2,Lava Pokémon
+218,Magcargo,219,Fire,Rock,Generation 2,Lava Pokémon
+219,Swinub,220,Ice,Ground,Generation 2,Pig Pokémon
+220,Piloswine,221,Ice,Ground,Generation 2,Swine Pokémon
+221,Corsola,222,Water,Rock,Generation 2,Coral Pokémon
+222,Remoraid,223,Water,None,Generation 2,Jet Pokémon
+223,Octillery,224,Water,None,Generation 2,Jet Pokémon
+224,Delibird,225,Ice,Flying,Generation 2,Delivery Pokémon
+225,Mantine,226,Water,Flying,Generation 2,Kite Pokémon
+226,Skarmory,227,Steel,Flying,Generation 2,Armor Bird Pokémon
+227,Houndour,228,Dark,Fire,Generation 2,Dark Pokémon
+228,Houndoom,229,Dark,Fire,Generation 2,Dark Pokémon
+229,Kingdra,230,Water,Dragon,Generation 2,Dragon Pokémon
+230,Phanpy,231,Ground,None,Generation 2,Long Nose Pokémon
+231,Donphan,232,Ground,None,Generation 2,Armor Pokémon
+232,Porygon2,233,Normal,None,Generation 2,Virtual Pokémon
+233,Stantler,234,Normal,None,Generation 2,Big Horn Pokémon
+234,Smeargle,235,Normal,None,Generation 2,Painter Pokémon
+235,Tyrogue,236,Fighting,None,Generation 2,Scuffle Pokémon
+236,Hitmontop,237,Fighting,None,Generation 2,Handstand Pokémon
+237,Smoochum,238,Ice,Psychic,Generation 2,Kiss Pokémon
+238,Elekid,239,Electric,None,Generation 2,Electric Pokémon
+239,Magby,240,Fire,None,Generation 2,Live Coal Pokémon
+240,Miltank,241,Normal,None,Generation 2,Milk Cow Pokémon
+241,Blissey,242,Normal,None,Generation 2,Happiness Pokémon
+242,Raikou,243,Electric,None,Generation 2,Thunder Pokémon
+243,Entei,244,Fire,None,Generation 2,Volcano Pokémon
+244,Suicune,245,Water,None,Generation 2,Aurora Pokémon
+245,Larvitar,246,Rock,Ground,Generation 2,Rock Skin Pokémon
+246,Pupitar,247,Rock,Ground,Generation 2,Hard Shell Pokémon
+247,Tyranitar,248,Rock,Dark,Generation 2,Armor Pokémon
+248,Lugia,249,Psychic,Flying,Generation 2,Diving Pokémon
+249,Ho-oh,250,Fire,Flying,Generation 2,Rainbow Pokémon
+250,Celebi,251,Psychic,Grass,Generation 2,Time Travel Pokémon
+251,Treecko,252,Grass,None,Generation 3,Wood Gecko Pokémon
+252,Grovyle,253,Grass,None,Generation 3,Wood Gecko Pokémon
+253,Sceptile,254,Grass,None,Generation 3,Forest Pokémon
+254,Torchic,255,Fire,None,Generation 3,Chick Pokémon
+255,Combusken,256,Fire,Fighting,Generation 3,Young Fowl Pokémon
+256,Blaziken,257,Fire,Fighting,Generation 3,Blaze Pokémon
+257,Mudkip,258,Water,None,Generation 3,Mud Fish Pokémon
+258,Marshtomp,259,Water,Ground,Generation 3,Mud Fish Pokémon
+259,Swampert,260,Water,Ground,Generation 3,Mud Fish Pokémon
+260,Poochyena,261,Dark,None,Generation 3,Bite Pokémon
+261,Mightyena,262,Dark,None,Generation 3,Bite Pokémon
+262,Zigzagoon,263,Normal,None,Generation 3,TinyRaccoon Pokémon
+263,Linoone,264,Normal,None,Generation 3,Rushing Pokémon
+264,Wurmple,265,Bug,None,Generation 3,Worm Pokémon
+265,Silcoon,266,Bug,None,Generation 3,Cocoon Pokémon
+266,Beautifly,267,Bug,Flying,Generation 3,Butterfly Pokémon
+267,Cascoon,268,Bug,None,Generation 3,Cocoon Pokémon
+268,Dustox,269,Bug,Poison,Generation 3,Poison Moth Pokémon
+269,Lotad,270,Water,Grass,Generation 3,Water Weed Pokémon
+270,Lombre,271,Water,Grass,Generation 3,Jolly Pokémon
+271,Ludicolo,272,Water,Grass,Generation 3,Carefree Pokémon
+272,Seedot,273,Grass,None,Generation 3,Acorn Pokémon
+273,Nuzleaf,274,Grass,Dark,Generation 3,Wily Pokémon
+274,Shiftry,275,Grass,Dark,Generation 3,Wicked Pokémon
+275,Taillow,276,Normal,Flying,Generation 3,TinySwallow Pokémon
+276,Swellow,277,Normal,Flying,Generation 3,Swallow Pokémon
+277,Wingull,278,Water,Flying,Generation 3,Seagull Pokémon
+278,Pelipper,279,Water,Flying,Generation 3,Water Bird Pokémon
+279,Ralts,280,Psychic,Fairy,Generation 3,Feeling Pokémon
+280,Kirlia,281,Psychic,Fairy,Generation 3,Emotion Pokémon
+281,Gardevoir,282,Psychic,Fairy,Generation 3,Embrace Pokémon
+282,Surskit,283,Bug,Water,Generation 3,Pond Skater Pokémon
+283,Masquerain,284,Bug,Flying,Generation 3,Eyeball Pokémon
+284,Shroomish,285,Grass,None,Generation 3,Mushroom Pokémon
+285,Breloom,286,Grass,Fighting,Generation 3,Mushroom Pokémon
+286,Slakoth,287,Normal,None,Generation 3,Slacker Pokémon
+287,Vigoroth,288,Normal,None,Generation 3,Wild Monkey Pokémon
+288,Slaking,289,Normal,None,Generation 3,Lazy Pokémon
+289,Nincada,290,Bug,Ground,Generation 3,Trainee Pokémon
+290,Ninjask,291,Bug,Flying,Generation 3,Ninja Pokémon
+291,Shedinja,292,Bug,Ghost,Generation 3,Shed Pokémon
+292,Whismur,293,Normal,None,Generation 3,Whisper Pokémon
+293,Loudred,294,Normal,None,Generation 3,Big Voice Pokémon
+294,Exploud,295,Normal,None,Generation 3,Loud Noise Pokémon
+295,Makuhita,296,Fighting,None,Generation 3,Guts Pokémon
+296,Hariyama,297,Fighting,None,Generation 3,Arm Thrust Pokémon
+297,Azurill,298,Normal,Fairy,Generation 3,Polka Dot Pokémon
+298,Nosepass,299,Rock,None,Generation 3,Compass Pokémon
+299,Skitty,300,Normal,None,Generation 3,Kitten Pokémon
+300,Delcatty,301,Normal,None,Generation 3,Prim Pokémon
+301,Sableye,302,Dark,Ghost,Generation 3,Darkness Pokémon
+302,Mawile,303,Steel,Fairy,Generation 3,Deceiver Pokémon
+303,Aron,304,Steel,Rock,Generation 3,Iron Armor Pokémon
+304,Lairon,305,Steel,Rock,Generation 3,Iron Armor Pokémon
+305,Aggron,306,Steel,Rock,Generation 3,Iron Armor Pokémon
+306,Meditite,307,Fighting,Psychic,Generation 3,Meditate Pokémon
+307,Medicham,308,Fighting,Psychic,Generation 3,Meditate Pokémon
+308,Electrike,309,Electric,None,Generation 3,Lightning Pokémon
+309,Manectric,310,Electric,None,Generation 3,Discharge Pokémon
+310,Plusle,311,Electric,None,Generation 3,Cheering Pokémon
+311,Minun,312,Electric,None,Generation 3,Cheering Pokémon
+312,Volbeat,313,Bug,None,Generation 3,Firefly Pokémon
+313,Illumise,314,Bug,None,Generation 3,Firefly Pokémon
+314,Roselia,315,Grass,Poison,Generation 3,Thorn Pokémon
+315,Gulpin,316,Poison,None,Generation 3,Stomach Pokémon
+316,Swalot,317,Poison,None,Generation 3,Poison Bag Pokémon
+317,Carvanha,318,Water,Dark,Generation 3,Savage Pokémon
+318,Sharpedo,319,Water,Dark,Generation 3,Brutal Pokémon
+319,Wailmer,320,Water,None,Generation 3,Ball Whale Pokémon
+320,Wailord,321,Water,None,Generation 3,Float Whale Pokémon
+321,Numel,322,Fire,Ground,Generation 3,Numb Pokémon
+322,Camerupt,323,Fire,Ground,Generation 3,Eruption Pokémon
+323,Torkoal,324,Fire,None,Generation 3,Coal Pokémon
+324,Spoink,325,Psychic,None,Generation 3,Bounce Pokémon
+325,Grumpig,326,Psychic,None,Generation 3,Manipulate Pokémon
+326,Spinda,327,Normal,None,Generation 3,Spot Panda Pokémon
+327,Trapinch,328,Ground,None,Generation 3,Ant Pit Pokémon
+328,Vibrava,329,Ground,Dragon,Generation 3,Vibration Pokémon
+329,Flygon,330,Ground,Dragon,Generation 3,Mystic Pokémon
+330,Cacnea,331,Grass,None,Generation 3,Cactus Pokémon
+331,Cacturne,332,Grass,Dark,Generation 3,Scarecrow Pokémon
+332,Swablu,333,Normal,Flying,Generation 3,Cotton Bird Pokémon
+333,Altaria,334,Dragon,Flying,Generation 3,Humming Pokémon
+334,Zangoose,335,Normal,None,Generation 3,Cat Ferret Pokémon
+335,Seviper,336,Poison,None,Generation 3,Fang Snake Pokémon
+336,Lunatone,337,Rock,Psychic,Generation 3,Meteorite Pokémon
+337,Solrock,338,Rock,Psychic,Generation 3,Meteorite Pokémon
+338,Barboach,339,Water,Ground,Generation 3,Whiskers Pokémon
+339,Whiscash,340,Water,Ground,Generation 3,Whiskers Pokémon
+340,Corphish,341,Water,None,Generation 3,Ruffian Pokémon
+341,Crawdaunt,342,Water,Dark,Generation 3,Rogue Pokémon
+342,Baltoy,343,Ground,Psychic,Generation 3,Clay Doll Pokémon
+343,Claydol,344,Ground,Psychic,Generation 3,Clay Doll Pokémon
+344,Lileep,345,Rock,Grass,Generation 3,Sea Lily Pokémon
+345,Cradily,346,Rock,Grass,Generation 3,Barnacle Pokémon
+346,Anorith,347,Rock,Bug,Generation 3,Old Shrimp Pokémon
+347,Armaldo,348,Rock,Bug,Generation 3,Plate Pokémon
+348,Feebas,349,Water,None,Generation 3,Fish Pokémon
+349,Milotic,350,Water,None,Generation 3,Tender Pokémon
+350,Castform,351,Normal,None,Generation 3,Weather Pokémon
+351,Kecleon,352,Normal,None,Generation 3,Color Swap Pokémon
+352,Shuppet,353,Ghost,None,Generation 3,Puppet Pokémon
+353,Banette,354,Ghost,None,Generation 3,Marionette Pokémon
+354,Duskull,355,Ghost,None,Generation 3,Requiem Pokémon
+355,Dusclops,356,Ghost,None,Generation 3,Beckon Pokémon
+356,Tropius,357,Grass,Flying,Generation 3,Fruit Pokémon
+357,Chimecho,358,Psychic,None,Generation 3,Wind Chime Pokémon
+358,Absol,359,Dark,None,Generation 3,Disaster Pokémon
+359,Wynaut,360,Psychic,None,Generation 3,Bright Pokémon
+360,Snorunt,361,Ice,None,Generation 3,Snow Hat Pokémon
+361,Glalie,362,Ice,None,Generation 3,Face Pokémon
+362,Spheal,363,Ice,Water,Generation 3,Clap Pokémon
+363,Sealeo,364,Ice,Water,Generation 3,Ball Roll Pokémon
+364,Walrein,365,Ice,Water,Generation 3,Ice Break Pokémon
+365,Clamperl,366,Water,None,Generation 3,Bivalve Pokémon
+366,Huntail,367,Water,None,Generation 3,Deep Sea Pokémon
+367,Gorebyss,368,Water,None,Generation 3,South Sea Pokémon
+368,Relicanth,369,Water,Rock,Generation 3,Longevity Pokémon
+369,Luvdisc,370,Water,None,Generation 3,Rendezvous Pokémon
+370,Bagon,371,Dragon,None,Generation 3,Rock Head Pokémon
+371,Shelgon,372,Dragon,None,Generation 3,Endurance Pokémon
+372,Salamence,373,Dragon,Flying,Generation 3,Dragon Pokémon
+373,Beldum,374,Steel,Psychic,Generation 3,Iron Ball Pokémon
+374,Metang,375,Steel,Psychic,Generation 3,Iron Claw Pokémon
+375,Metagross,376,Steel,Psychic,Generation 3,Iron Leg Pokémon
+376,Regirock,377,Rock,None,Generation 3,Rock Peak Pokémon
+377,Regice,378,Ice,None,Generation 3,Iceberg Pokémon
+378,Registeel,379,Steel,None,Generation 3,Iron Pokémon
+379,Latias,380,Dragon,Psychic,Generation 3,Eon Pokémon
+380,Latios,381,Dragon,Psychic,Generation 3,Eon Pokémon
+381,Kyogre,382,Water,None,Generation 3,Sea Basin Pokémon
+382,Groudon,383,Ground,None,Generation 3,Continent Pokémon
+383,Rayquaza,384,Dragon,Flying,Generation 3,Sky High Pokémon
+384,Jirachi,385,Steel,Psychic,Generation 3,Wish Pokémon
+385,Deoxys,386,Psychic,None,Generation 3,DNA Pokémon
+386,Turtwig,387,Grass,None,Generation 4,Tiny Leaf Pokémon
+387,Grotle,388,Grass,None,Generation 4,Grove Pokémon
+388,Torterra,389,Grass,Ground,Generation 4,Continent Pokémon
+389,Chimchar,390,Fire,None,Generation 4,Chimp Pokémon
+390,Monferno,391,Fire,Fighting,Generation 4,Playful Pokémon
+391,Infernape,392,Fire,Fighting,Generation 4,Flame Pokémon
+392,Piplup,393,Water,None,Generation 4,Penguin Pokémon
+393,Prinplup,394,Water,None,Generation 4,Penguin Pokémon
+394,Empoleon,395,Water,Steel,Generation 4,Emperor Pokémon
+395,Starly,396,Normal,Flying,Generation 4,Starling Pokémon
+396,Staravia,397,Normal,Flying,Generation 4,Starling Pokémon
+397,Staraptor,398,Normal,Flying,Generation 4,Predator Pokémon
+398,Bidoof,399,Normal,None,Generation 4,Plump Mouse Pokémon
+399,Bibarel,400,Normal,Water,Generation 4,Beaver Pokémon
+400,Kricketot,401,Bug,None,Generation 4,Cricket Pokémon
+401,Kricketune,402,Bug,None,Generation 4,Cricket Pokémon
+402,Shinx,403,Electric,None,Generation 4,Flash Pokémon
+403,Luxio,404,Electric,None,Generation 4,Spark Pokémon
+404,Luxray,405,Electric,None,Generation 4,Gleam Eyes Pokémon
+405,Budew,406,Grass,Poison,Generation 4,Bud Pokémon
+406,Roserade,407,Grass,Poison,Generation 4,Bouquet Pokémon
+407,Cranidos,408,Rock,None,Generation 4,Head Butt Pokémon
+408,Rampardos,409,Rock,None,Generation 4,Head Butt Pokémon
+409,Shieldon,410,Rock,Steel,Generation 4,Shield Pokémon
+410,Bastiodon,411,Rock,Steel,Generation 4,Shield Pokémon
+411,Burmy,412,Bug,None,Generation 4,Bagworm Pokémon
+412,Wormadam,413,Bug,Grass,Generation 4,Bagworm Pokémon
+413,Mothim,414,Bug,Flying,Generation 4,Moth Pokémon
+414,Combee,415,Bug,Flying,Generation 4,Tiny Bee Pokémon
+415,Vespiquen,416,Bug,Flying,Generation 4,Beehive Pokémon
+416,Pachirisu,417,Electric,None,Generation 4,EleSquirrel Pokémon
+417,Buizel,418,Water,None,Generation 4,Sea Weasel Pokémon
+418,Floatzel,419,Water,None,Generation 4,Sea Weasel Pokémon
+419,Cherubi,420,Grass,None,Generation 4,Cherry Pokémon
+420,Cherrim,421,Grass,None,Generation 4,Blossom Pokémon
+421,Shellos,422,Water,None,Generation 4,Sea Slug Pokémon
+422,Gastrodon,423,Water,Ground,Generation 4,Sea Slug Pokémon
+423,Ambipom,424,Normal,None,Generation 4,Long Tail Pokémon
+424,Drifloon,425,Ghost,Flying,Generation 4,Balloon Pokémon
+425,Drifblim,426,Ghost,Flying,Generation 4,Blimp Pokémon
+426,Buneary,427,Normal,None,Generation 4,Rabbit Pokémon
+427,Lopunny,428,Normal,None,Generation 4,Rabbit Pokémon
+428,Mismagius,429,Ghost,None,Generation 4,Magical Pokémon
+429,Honchkrow,430,Dark,Flying,Generation 4,Big Boss Pokémon
+430,Glameow,431,Normal,None,Generation 4,Catty Pokémon
+431,Purugly,432,Normal,None,Generation 4,Tiger Cat Pokémon
+432,Chingling,433,Psychic,None,Generation 4,Bell Pokémon
+433,Stunky,434,Poison,Dark,Generation 4,Skunk Pokémon
+434,Skuntank,435,Poison,Dark,Generation 4,Skunk Pokémon
+435,Bronzor,436,Steel,Psychic,Generation 4,Bronze Pokémon
+436,Bronzong,437,Steel,Psychic,Generation 4,Bronze Bell Pokémon
+437,Bonsly,438,Rock,None,Generation 4,Bonsai Pokémon
+438,Mime Jr.,439,Psychic,Fairy,Generation 4,Mime Pokémon
+439,Happiny,440,Normal,None,Generation 4,Playhouse Pokémon
+440,Chatot,441,Normal,Flying,Generation 4,Music Note Pokémon
+441,Spiritomb,442,Ghost,Dark,Generation 4,Forbidden Pokémon
+442,Gible,443,Dragon,Ground,Generation 4,Land Shark Pokémon
+443,Gabite,444,Dragon,Ground,Generation 4,Cave Pokémon
+444,Garchomp,445,Dragon,Ground,Generation 4,Mach Pokémon
+445,Munchlax,446,Normal,None,Generation 4,Big Eater Pokémon
+446,Riolu,447,Fighting,None,Generation 4,Emanation Pokémon
+447,Lucario,448,Fighting,Steel,Generation 4,Aura Pokémon
+448,Hippopotas,449,Ground,None,Generation 4,Hippo Pokémon
+449,Hippowdon,450,Ground,None,Generation 4,Heavyweight Pokémon
+450,Skorupi,451,Poison,Bug,Generation 4,Scorpion Pokémon
+451,Drapion,452,Poison,Dark,Generation 4,Ogre Scorp Pokémon
+452,Croagunk,453,Poison,Fighting,Generation 4,Toxic Mouth Pokémon
+453,Toxicroak,454,Poison,Fighting,Generation 4,Toxic Mouth Pokémon
+454,Carnivine,455,Grass,None,Generation 4,Bug Catcher Pokémon
+455,Finneon,456,Water,None,Generation 4,Wing Fish Pokémon
+456,Lumineon,457,Water,None,Generation 4,Neon Pokémon
+457,Mantyke,458,Water,Flying,Generation 4,Kite Pokémon
+458,Snover,459,Grass,Ice,Generation 4,Frost Tree Pokémon
+459,Abomasnow,460,Grass,Ice,Generation 4,Frost Tree Pokémon
+460,Weavile,461,Dark,Ice,Generation 4,Sharp Claw Pokémon
+461,Magnezone,462,Electric,Steel,Generation 4,Magnet Area Pokémon
+462,Lickilicky,463,Normal,None,Generation 4,Licking Pokémon
+463,Rhyperior,464,Ground,Rock,Generation 4,Drill Pokémon
+464,Tangrowth,465,Grass,None,Generation 4,Vine Pokémon
+465,Electivire,466,Electric,None,Generation 4,Thunderbolt Pokémon
+466,Magmortar,467,Fire,None,Generation 4,Blast Pokémon
+467,Togekiss,468,Fairy,Flying,Generation 4,Jubilee Pokémon
+468,Yanmega,469,Bug,Flying,Generation 4,Ogre Darner Pokémon
+469,Leafeon,470,Grass,None,Generation 4,Verdant Pokémon
+470,Glaceon,471,Ice,None,Generation 4,Fresh Snow Pokémon
+471,Gliscor,472,Ground,Flying,Generation 4,Fang Scorp Pokémon
+472,Mamoswine,473,Ice,Ground,Generation 4,Twin Tusk Pokémon
+473,Porygon-Z,474,Normal,None,Generation 4,Virtual Pokémon
+474,Gallade,475,Psychic,Fighting,Generation 4,Blade Pokémon
+475,Probopass,476,Rock,Steel,Generation 4,Compass Pokémon
+476,Dusknoir,477,Ghost,None,Generation 4,Gripper Pokémon
+477,Froslass,478,Ice,Ghost,Generation 4,Snow Land Pokémon
+478,Rotom,479,Electric,Ghost,Generation 4,Plasma Pokémon
+479,Uxie,480,Psychic,None,Generation 4,Knowledge Pokémon
+480,Mesprit,481,Psychic,None,Generation 4,Emotion Pokémon
+481,Azelf,482,Psychic,None,Generation 4,Willpower Pokémon
+482,Dialga,483,Steel,Dragon,Generation 4,Temporal Pokémon
+483,Palkia,484,Water,Dragon,Generation 4,Spatial Pokémon
+484,Heatran,485,Fire,Steel,Generation 4,Lava Dome Pokémon
+485,Regigigas,486,Normal,None,Generation 4,Colossal Pokémon
+486,Giratina,487,Ghost,Dragon,Generation 4,Renegade Pokémon
+487,Cresselia,488,Psychic,None,Generation 4,Lunar Pokémon
+488,Phione,489,Water,None,Generation 4,Sea Drifter Pokémon
+489,Manaphy,490,Water,None,Generation 4,Seafaring Pokémon
+490,Darkrai,491,Dark,None,Generation 4,Pitch-Black Pokémon
+491,Shaymin,492,Grass,None,Generation 4,Gratitude Pokémon
+492,Arceus,493,Normal,None,Generation 4,Alpha Pokémon
+493,Victini,494,Psychic,Fire,Generation 5,Victory Pokémon
+494,Snivy,495,Grass,None,Generation 5,Grass Snake Pokémon
+495,Servine,496,Grass,None,Generation 5,Grass Snake Pokémon
+496,Serperior,497,Grass,None,Generation 5,Regal Pokémon
+497,Tepig,498,Fire,None,Generation 5,Fire Pig Pokémon
+498,Pignite,499,Fire,Fighting,Generation 5,Fire Pig Pokémon
+499,Emboar,500,Fire,Fighting,Generation 5,Mega Fire Pig Pokémon
+500,Oshawott,501,Water,None,Generation 5,Sea Otter Pokémon
+501,Dewott,502,Water,None,Generation 5,Discipline Pokémon
+502,Samurott,503,Water,None,Generation 5,Formidable Pokémon
+503,Patrat,504,Normal,None,Generation 5,Scout Pokémon
+504,Watchog,505,Normal,None,Generation 5,Lookout Pokémon
+505,Lillipup,506,Normal,None,Generation 5,Puppy Pokémon
+506,Herdier,507,Normal,None,Generation 5,Loyal Dog Pokémon
+507,Stoutland,508,Normal,None,Generation 5,Big-Hearted Pokémon
+508,Purrloin,509,Dark,None,Generation 5,Devious Pokémon
+509,Liepard,510,Dark,None,Generation 5,Cruel Pokémon
+510,Pansage,511,Grass,None,Generation 5,Grass Monkey Pokémon
+511,Simisage,512,Grass,None,Generation 5,Thorn Monkey Pokémon
+512,Pansear,513,Fire,None,Generation 5,High Temp Pokémon
+513,Simisear,514,Fire,None,Generation 5,Ember Pokémon
+514,Panpour,515,Water,None,Generation 5,Spray Pokémon
+515,Simipour,516,Water,None,Generation 5,Geyser Pokémon
+516,Munna,517,Psychic,None,Generation 5,Dream Eater Pokémon
+517,Musharna,518,Psychic,None,Generation 5,Drowsing Pokémon
+518,Pidove,519,Normal,Flying,Generation 5,Tiny Pigeon Pokémon
+519,Tranquill,520,Normal,Flying,Generation 5,Wild Pigeon Pokémon
+520,Unfezant,521,Normal,Flying,Generation 5,Proud Pokémon
+521,Blitzle,522,Electric,None,Generation 5,Electrified Pokémon
+522,Zebstrika,523,Electric,None,Generation 5,Thunderbolt Pokémon
+523,Roggenrola,524,Rock,None,Generation 5,Mantle Pokémon
+524,Boldore,525,Rock,None,Generation 5,Ore Pokémon
+525,Gigalith,526,Rock,None,Generation 5,Compressed Pokémon
+526,Woobat,527,Psychic,Flying,Generation 5,Bat Pokémon
+527,Swoobat,528,Psychic,Flying,Generation 5,Courting Pokémon
+528,Drilbur,529,Ground,None,Generation 5,Mole Pokémon
+529,Excadrill,530,Ground,Steel,Generation 5,Subterrene Pokémon
+530,Audino,531,Normal,None,Generation 5,Hearing Pokémon
+531,Timburr,532,Fighting,None,Generation 5,Muscular Pokémon
+532,Gurdurr,533,Fighting,None,Generation 5,Muscular Pokémon
+533,Conkeldurr,534,Fighting,None,Generation 5,Muscular Pokémon
+534,Tympole,535,Water,None,Generation 5,Tadpole Pokémon
+535,Palpitoad,536,Water,Ground,Generation 5,Vibration Pokémon
+536,Seismitoad,537,Water,Ground,Generation 5,Vibration Pokémon
+537,Throh,538,Fighting,None,Generation 5,Judo Pokémon
+538,Sawk,539,Fighting,None,Generation 5,Karate Pokémon
+539,Sewaddle,540,Bug,Grass,Generation 5,Sewing Pokémon
+540,Swadloon,541,Bug,Grass,Generation 5,Leaf-Wrapped Pokémon
+541,Leavanny,542,Bug,Grass,Generation 5,Nurturing Pokémon
+542,Venipede,543,Bug,Poison,Generation 5,Centipede Pokémon
+543,Whirlipede,544,Bug,Poison,Generation 5,Curlipede Pokémon
+544,Scolipede,545,Bug,Poison,Generation 5,Megapede Pokémon
+545,Cottonee,546,Grass,Fairy,Generation 5,Cotton Puff Pokémon
+546,Whimsicott,547,Grass,Fairy,Generation 5,Windveiled Pokémon
+547,Petilil,548,Grass,None,Generation 5,Bulb Pokémon
+548,Lilligant,549,Grass,None,Generation 5,Flowering Pokémon
+549,Basculin,550,Water,None,Generation 5,Hostile Pokémon
+550,Sandile,551,Ground,Dark,Generation 5,Desert Croc Pokémon
+551,Krokorok,552,Ground,Dark,Generation 5,Desert Croc Pokémon
+552,Krookodile,553,Ground,Dark,Generation 5,Intimidation Pokémon
+553,Darumaka,554,Fire,None,Generation 5,Zen Charm Pokémon
+554,Darmanitan,555,Fire,None,Generation 5,Blazing Pokémon
+555,Maractus,556,Grass,None,Generation 5,Cactus Pokémon
+556,Dwebble,557,Bug,Rock,Generation 5,Rock Inn Pokémon
+557,Crustle,558,Bug,Rock,Generation 5,Stone Home Pokémon
+558,Scraggy,559,Dark,Fighting,Generation 5,Shedding Pokémon
+559,Scrafty,560,Dark,Fighting,Generation 5,Hoodlum Pokémon
+560,Sigilyph,561,Psychic,Flying,Generation 5,Avianoid Pokémon
+561,Yamask,562,Ghost,None,Generation 5,Spirit Pokémon
+562,Cofagrigus,563,Ghost,None,Generation 5,Coffin Pokémon
+563,Tirtouga,564,Water,Rock,Generation 5,Prototurtle Pokémon
+564,Carracosta,565,Water,Rock,Generation 5,Prototurtle Pokémon
+565,Archen,566,Rock,Flying,Generation 5,First Bird Pokémon
+566,Archeops,567,Rock,Flying,Generation 5,First Bird Pokémon
+567,Trubbish,568,Poison,None,Generation 5,Trash Bag Pokémon
+568,Garbodor,569,Poison,None,Generation 5,Trash Heap Pokémon
+569,Zorua,570,Dark,None,Generation 5,Tricky Fox Pokémon
+570,Zoroark,571,Dark,None,Generation 5,Illusion Fox Pokémon
+571,Minccino,572,Normal,None,Generation 5,Chinchilla Pokémon
+572,Cinccino,573,Normal,None,Generation 5,Scarf Pokémon
+573,Gothita,574,Psychic,None,Generation 5,Fixation Pokémon
+574,Gothorita,575,Psychic,None,Generation 5,Manipulate Pokémon
+575,Gothitelle,576,Psychic,None,Generation 5,Astral Body Pokémon
+576,Solosis,577,Psychic,None,Generation 5,Cell Pokémon
+577,Duosion,578,Psychic,None,Generation 5,Mitosis Pokémon
+578,Reuniclus,579,Psychic,None,Generation 5,Multiplying Pokémon
+579,Ducklett,580,Water,Flying,Generation 5,Water Bird Pokémon
+580,Swanna,581,Water,Flying,Generation 5,White Bird Pokémon
+581,Vanillite,582,Ice,None,Generation 5,Fresh Snow Pokémon
+582,Vanillish,583,Ice,None,Generation 5,Icy Snow Pokémon
+583,Vanilluxe,584,Ice,None,Generation 5,Snowstorm Pokémon
+584,Deerling,585,Normal,Grass,Generation 5,Season Pokémon
+585,Sawsbuck,586,Normal,Grass,Generation 5,Season Pokémon
+586,Emolga,587,Electric,Flying,Generation 5,Sky Squirrel Pokémon
+587,Karrablast,588,Bug,None,Generation 5,Clamping Pokémon
+588,Escavalier,589,Bug,Steel,Generation 5,Cavalry Pokémon
+589,Foongus,590,Grass,Poison,Generation 5,Mushroom Pokémon
+590,Amoonguss,591,Grass,Poison,Generation 5,Mushroom Pokémon
+591,Frillish,592,Water,Ghost,Generation 5,Floating Pokémon
+592,Jellicent,593,Water,Ghost,Generation 5,Floating Pokémon
+593,Alomomola,594,Water,None,Generation 5,Caring Pokémon
+594,Joltik,595,Bug,Electric,Generation 5,Attaching Pokémon
+595,Galvantula,596,Bug,Electric,Generation 5,EleSpider Pokémon
+596,Ferroseed,597,Grass,Steel,Generation 5,Thorn Seed Pokémon
+597,Ferrothorn,598,Grass,Steel,Generation 5,Thorn Pod Pokémon
+598,Klink,599,Steel,None,Generation 5,Gear Pokémon
+599,Klang,600,Steel,None,Generation 5,Gear Pokémon
+600,Klinklang,601,Steel,None,Generation 5,Gear Pokémon
+601,Tynamo,602,Electric,None,Generation 5,EleFish Pokémon
+602,Eelektrik,603,Electric,None,Generation 5,EleFish Pokémon
+603,Eelektross,604,Electric,None,Generation 5,EleFish Pokémon
+604,Elgyem,605,Psychic,None,Generation 5,Cerebral Pokémon
+605,Beheeyem,606,Psychic,None,Generation 5,Cerebral Pokémon
+606,Litwick,607,Ghost,Fire,Generation 5,Candle Pokémon
+607,Lampent,608,Ghost,Fire,Generation 5,Lamp Pokémon
+608,Chandelure,609,Ghost,Fire,Generation 5,Luring Pokémon
+609,Axew,610,Dragon,None,Generation 5,Tusk Pokémon
+610,Fraxure,611,Dragon,None,Generation 5,Axe Jaw Pokémon
+611,Haxorus,612,Dragon,None,Generation 5,Axe Jaw Pokémon
+612,Cubchoo,613,Ice,None,Generation 5,Chill Pokémon
+613,Beartic,614,Ice,None,Generation 5,Freezing Pokémon
+614,Cryogonal,615,Ice,None,Generation 5,Crystallizing Pokémon
+615,Shelmet,616,Bug,None,Generation 5,Snail Pokémon
+616,Accelgor,617,Bug,None,Generation 5,Shell Out Pokémon
+617,Stunfisk,618,Ground,Electric,Generation 5,Trap Pokémon
+618,Mienfoo,619,Fighting,None,Generation 5,Martial Arts Pokémon
+619,Mienshao,620,Fighting,None,Generation 5,Martial Arts Pokémon
+620,Druddigon,621,Dragon,None,Generation 5,Cave Pokémon
+621,Golett,622,Ground,Ghost,Generation 5,Automaton Pokémon
+622,Golurk,623,Ground,Ghost,Generation 5,Automaton Pokémon
+623,Pawniard,624,Dark,Steel,Generation 5,Sharp Blade Pokémon
+624,Bisharp,625,Dark,Steel,Generation 5,Sword Blade Pokémon
+625,Bouffalant,626,Normal,None,Generation 5,Bash Buffalo Pokémon
+626,Rufflet,627,Normal,Flying,Generation 5,Eaglet Pokémon
+627,Braviary,628,Normal,Flying,Generation 5,Valiant Pokémon
+628,Vullaby,629,Dark,Flying,Generation 5,Diapered Pokémon
+629,Mandibuzz,630,Dark,Flying,Generation 5,Bone Vulture Pokémon
+630,Heatmor,631,Fire,None,Generation 5,Anteater Pokémon
+631,Durant,632,Bug,Steel,Generation 5,Iron Ant Pokémon
+632,Deino,633,Dark,Dragon,Generation 5,Irate Pokémon
+633,Zweilous,634,Dark,Dragon,Generation 5,Hostile Pokémon
+634,Hydreigon,635,Dark,Dragon,Generation 5,Brutal Pokémon
+635,Larvesta,636,Bug,Fire,Generation 5,Torch Pokémon
+636,Volcarona,637,Bug,Fire,Generation 5,Sun Pokémon
+637,Cobalion,638,Steel,Fighting,Generation 5,Iron Will Pokémon
+638,Terrakion,639,Rock,Fighting,Generation 5,Cavern Pokémon
+639,Virizion,640,Grass,Fighting,Generation 5,Grassland Pokémon
+640,Tornadus,641,Flying,None,Generation 5,Cyclone Pokémon
+641,Thundurus,642,Electric,Flying,Generation 5,Bolt Strike Pokémon
+642,Reshiram,643,Dragon,Fire,Generation 5,Vast White Pokémon
+643,Zekrom,644,Dragon,Electric,Generation 5,Deep Black Pokémon
+644,Landorus,645,Ground,Flying,Generation 5,Abundance Pokémon
+645,Kyurem,646,Dragon,Ice,Generation 5,Boundary Pokémon
+646,Keldeo,647,Water,Fighting,Generation 5,Colt Pokémon
+647,Meloetta,648,Normal,Psychic,Generation 5,Melody Pokémon
+648,Genesect,649,Bug,Steel,Generation 5,Paleozoic Pokémon
+649,Chespin,650,Grass,None,Generation 6,Spiny Nut Pokémon
+650,Quilladin,651,Grass,None,Generation 6,Spiny Armor Pokémon
+651,Chesnaught,652,Grass,Fighting,Generation 6,Spiny Armor Pokémon
+652,Fennekin,653,Fire,None,Generation 6,Fox Pokémon
+653,Braixen,654,Fire,None,Generation 6,Fox Pokémon
+654,Delphox,655,Fire,Psychic,Generation 6,Fox Pokémon
+655,Froakie,656,Water,None,Generation 6,Bubble Frog Pokémon
+656,Frogadier,657,Water,None,Generation 6,Bubble Frog Pokémon
+657,Greninja,658,Water,Dark,Generation 6,Ninja Pokémon
+658,Bunnelby,659,Normal,None,Generation 6,Digging Pokémon
+659,Diggersby,660,Normal,Ground,Generation 6,Digging Pokémon
+660,Fletchling,661,Normal,Flying,Generation 6,Tiny Robin Pokémon
+661,Fletchinder,662,Fire,Flying,Generation 6,Ember Pokémon
+662,Talonflame,663,Fire,Flying,Generation 6,Scorching Pokémon
+663,Scatterbug,664,Bug,None,Generation 6,Scatterdust Pokémon
+664,Spewpa,665,Bug,None,Generation 6,Scatterdust Pokémon
+665,Vivillon,666,Bug,Flying,Generation 6,Scale Pokémon
+666,Litleo,667,Fire,Normal,Generation 6,Lion Cub Pokémon
+667,Pyroar,668,Fire,Normal,Generation 6,Royal Pokémon
+668,Flabébé,669,Fairy,None,Generation 6,Single Bloom Pokémon
+669,Floette,670,Fairy,None,Generation 6,Single Bloom Pokémon
+670,Florges,671,Fairy,None,Generation 6,Garden Pokémon
+671,Skiddo,672,Grass,None,Generation 6,Mount Pokémon
+672,Gogoat,673,Grass,None,Generation 6,Mount Pokémon
+673,Pancham,674,Fighting,None,Generation 6,Playful Pokémon
+674,Pangoro,675,Fighting,Dark,Generation 6,Daunting Pokémon
+675,Furfrou,676,Normal,None,Generation 6,Poodle Pokémon
+676,Espurr,677,Psychic,None,Generation 6,Restraint Pokémon
+677,Meowstic,678,Psychic,None,Generation 6,Constraint Pokémon
+678,Honedge,679,Steel,Ghost,Generation 6,Sword Pokémon
+679,Doublade,680,Steel,Ghost,Generation 6,Sword Pokémon
+680,Aegislash,681,Steel,Ghost,Generation 6,Royal Sword Pokémon
+681,Spritzee,682,Fairy,None,Generation 6,Perfume Pokémon
+682,Aromatisse,683,Fairy,None,Generation 6,Fragrance Pokémon
+683,Swirlix,684,Fairy,None,Generation 6,Cotton Candy Pokémon
+684,Slurpuff,685,Fairy,None,Generation 6,Meringue Pokémon
+685,Inkay,686,Dark,Psychic,Generation 6,Revolving Pokémon
+686,Malamar,687,Dark,Psychic,Generation 6,Overturning Pokémon
+687,Binacle,688,Rock,Water,Generation 6,Two-Handed Pokémon
+688,Barbaracle,689,Rock,Water,Generation 6,Collective Pokémon
+689,Skrelp,690,Poison,Water,Generation 6,Mock Kelp Pokémon
+690,Dragalge,691,Poison,Dragon,Generation 6,Mock Kelp Pokémon
+691,Clauncher,692,Water,None,Generation 6,Water Gun Pokémon
+692,Clawitzer,693,Water,None,Generation 6,Howitzer Pokémon
+693,Helioptile,694,Electric,Normal,Generation 6,Generator Pokémon
+694,Heliolisk,695,Electric,Normal,Generation 6,Generator Pokémon
+695,Tyrunt,696,Rock,Dragon,Generation 6,Royal Heir Pokémon
+696,Tyrantrum,697,Rock,Dragon,Generation 6,Despot Pokémon
+697,Amaura,698,Rock,Ice,Generation 6,Tundra Pokémon
+698,Aurorus,699,Rock,Ice,Generation 6,Tundra Pokémon
+699,Sylveon,700,Fairy,None,Generation 6,Intertwining Pokémon
+700,Hawlucha,701,Fighting,Flying,Generation 6,Wrestling Pokémon
+701,Dedenne,702,Electric,Fairy,Generation 6,Antenna Pokémon
+702,Carbink,703,Rock,Fairy,Generation 6,Jewel Pokémon
+703,Goomy,704,Dragon,None,Generation 6,Soft Tissue Pokémon
+704,Sliggoo,705,Dragon,None,Generation 6,Soft Tissue Pokémon
+705,Goodra,706,Dragon,None,Generation 6,Dragon Pokémon
+706,Klefki,707,Steel,Fairy,Generation 6,Key Ring Pokémon
+707,Phantump,708,Ghost,Grass,Generation 6,Stump Pokémon
+708,Trevenant,709,Ghost,Grass,Generation 6,Elder Tree Pokémon
+709,Pumpkaboo,710,Ghost,Grass,Generation 6,Pumpkin Pokémon
+710,Gourgeist,711,Ghost,Grass,Generation 6,Pumpkin Pokémon
+711,Bergmite,712,Ice,None,Generation 6,Ice Chunk Pokémon
+712,Avalugg,713,Ice,None,Generation 6,Iceberg Pokémon
+713,Noibat,714,Flying,Dragon,Generation 6,Sound Wave Pokémon
+714,Noivern,715,Flying,Dragon,Generation 6,Sound Wave Pokémon
+715,Xerneas,716,Fairy,None,Generation 6,Life Pokémon
+716,Yveltal,717,Dark,Flying,Generation 6,Destruction Pokémon
+717,Zygarde,718,Dragon,Ground,Generation 6,Order Pokémon
+718,Diancie,719,Rock,Fairy,Generation 6,Jewel Pokémon
+719,Hoopa,720,Psychic,Ghost,Generation 6,Mischief Pokémon
+720,Volcanion,721,Fire,Water,Generation 6,Steam Pokémon
+721,Rowlet,722,Grass,Flying,Generation 7,Grass Quill Pokémon
+722,Dartrix,723,Grass,Flying,Generation 7,Blade Quill Pokémon
+723,Decidueye,724,Grass,Ghost,Generation 7,Arrow Quill Pokémon
+724,Litten,725,Fire,None,Generation 7,Fire Cat Pokémon
+725,Torracat,726,Fire,None,Generation 7,Fire Cat Pokémon
+726,Incineroar,727,Fire,Dark,Generation 7,Heel Pokémon
+727,Popplio,728,Water,None,Generation 7,Sea Lion Pokémon
+728,Brionne,729,Water,None,Generation 7,Pop Star Pokémon
+729,Primarina,730,Water,Fairy,Generation 7,Soloist Pokémon
+730,Pikipek,731,Normal,Flying,Generation 7,Woodpecker Pokémon
+731,Trumbeak,732,Normal,Flying,Generation 7,Bugle Beak Pokémon
+732,Toucannon,733,Normal,Flying,Generation 7,Cannon Pokémon
+733,Yungoos,734,Normal,None,Generation 7,Loitering Pokémon
+734,Gumshoos,735,Normal,None,Generation 7,Stakeout Pokémon
+735,Grubbin,736,Bug,None,Generation 7,Larva Pokémon
+736,Charjabug,737,Bug,Electric,Generation 7,Battery Pokémon
+737,Vikavolt,738,Bug,Electric,Generation 7,Stag Beetle Pokémon
+738,Crabrawler,739,Fighting,None,Generation 7,Boxing Pokémon
+739,Crabominable,740,Fighting,Ice,Generation 7,Woolly Crab Pokémon
+740,Oricorio,741,Fire,Flying,Generation 7,Dancing Pokémon
+741,Cutiefly,742,Bug,Fairy,Generation 7,Bee Fly Pokémon
+742,Ribombee,743,Bug,Fairy,Generation 7,Bee Fly Pokémon
+743,Rockruff,744,Rock,None,Generation 7,Puppy Pokémon
+744,Lycanroc,745,Rock,None,Generation 7,Wolf Pokémon
+745,Wishiwashi,746,Water,None,Generation 7,Small Fry Pokémon
+746,Mareanie,747,Poison,Water,Generation 7,Brutal Star Pokémon
+747,Toxapex,748,Poison,Water,Generation 7,Brutal Star Pokémon
+748,Mudbray,749,Ground,None,Generation 7,Donkey Pokémon
+749,Mudsdale,750,Ground,None,Generation 7,Draft Horse Pokémon
+750,Dewpider,751,Water,Bug,Generation 7,Water Bubble Pokémon
+751,Araquanid,752,Water,Bug,Generation 7,Water Bubble Pokémon
+752,Fomantis,753,Grass,None,Generation 7,Sickle Grass Pokémon
+753,Lurantis,754,Grass,None,Generation 7,Bloom Sickle Pokémon
+754,Morelull,755,Grass,Fairy,Generation 7,Illuminating Pokémon
+755,Shiinotic,756,Grass,Fairy,Generation 7,Illuminating Pokémon
+756,Salandit,757,Poison,Fire,Generation 7,Toxic Lizard Pokémon
+757,Salazzle,758,Poison,Fire,Generation 7,Toxic Lizard Pokémon
+758,Stufful,759,Normal,Fighting,Generation 7,Flailing Pokémon
+759,Bewear,760,Normal,Fighting,Generation 7,Strong Arm Pokémon
+760,Bounsweet,761,Grass,None,Generation 7,Fruit Pokémon
+761,Steenee,762,Grass,None,Generation 7,Fruit Pokémon
+762,Tsareena,763,Grass,None,Generation 7,Fruit Pokémon
+763,Comfey,764,Fairy,None,Generation 7,Posy Picker Pokémon
+764,Oranguru,765,Normal,Psychic,Generation 7,Sage Pokémon
+765,Passimian,766,Fighting,None,Generation 7,Teamwork Pokémon
+766,Wimpod,767,Bug,Water,Generation 7,Turn Tail Pokémon
+767,Golisopod,768,Bug,Water,Generation 7,Hard Scale Pokémon
+768,Sandygast,769,Ghost,Ground,Generation 7,Sand Heap Pokémon
+769,Palossand,770,Ghost,Ground,Generation 7,Sand Castle Pokémon
+770,Pyukumuku,771,Water,None,Generation 7,Sea Cucumber Pokémon
+771,Type: Null,772,Normal,None,Generation 7,Synthetic Pokémon
+772,Silvally,773,Normal,None,Generation 7,Synthetic Pokémon
+773,Minior,774,Rock,Flying,Generation 7,Meteor Pokémon
+774,Komala,775,Normal,None,Generation 7,Drowsing Pokémon
+775,Turtonator,776,Fire,Dragon,Generation 7,Blast Turtle Pokémon
+776,Togedemaru,777,Electric,Steel,Generation 7,Roly-Poly Pokémon
+777,Mimikyu,778,Ghost,Fairy,Generation 7,Disguise Pokémon
+778,Bruxish,779,Water,Psychic,Generation 7,Gnash Teeth Pokémon
+779,Drampa,780,Normal,Dragon,Generation 7,Placid Pokémon
+780,Dhelmise,781,Ghost,Grass,Generation 7,Sea Creeper Pokémon
+781,Jangmo-o,782,Dragon,None,Generation 7,Scaly Pokémon
+782,Hakamo-o,783,Dragon,Fighting,Generation 7,Scaly Pokémon
+783,Kommo-o,784,Dragon,Fighting,Generation 7,Scaly Pokémon
+784,Tapu Koko,785,Electric,Fairy,Generation 7,Land Spirit Pokémon
+785,Tapu Lele,786,Psychic,Fairy,Generation 7,Land Spirit Pokémon
+786,Tapu Bulu,787,Grass,Fairy,Generation 7,Land Spirit Pokémon
+787,Tapu Fini,788,Water,Fairy,Generation 7,Land Spirit Pokémon
+788,Cosmog,789,Psychic,None,Generation 7,Nebula Pokémon
+789,Cosmoem,790,Psychic,None,Generation 7,Protostar Pokémon
+790,Solgaleo,791,Psychic,Steel,Generation 7,Sunne Pokémon
+791,Lunala,792,Psychic,Ghost,Generation 7,Moone Pokémon
+792,Nihilego,793,Rock,Poison,Generation 7,Parasite Pokémon
+793,Buzzwole,794,Bug,Fighting,Generation 7,Swollen Pokémon
+794,Pheromosa,795,Bug,Fighting,Generation 7,Lissome Pokémon
+795,Xurkitree,796,Electric,None,Generation 7,Glowing Pokémon
+796,Celesteela,797,Steel,Flying,Generation 7,Launch Pokémon
+797,Kartana,798,Grass,Steel,Generation 7,Drawn Sword Pokémon
+798,Guzzlord,799,Dark,Dragon,Generation 7,Junkivore Pokémon
+799,Necrozma,800,Psychic,None,Generation 7,Prism Pokémon
+800,Magearna,801,Steel,Fairy,Generation 7,Artificial Pokémon
+801,Marshadow,802,Fighting,Ghost,Generation 7,Gloomdweller Pokémon
+802,Poipole,803,Poison,None,Generation 7,Poison Pin Pokémon
+803,Naganadel,804,Poison,Dragon,Generation 7,Poison Pin Pokémon
+804,Stakataka,805,Rock,Steel,Generation 7,Rampart Pokémon
+805,Blacephalon,806,Fire,Ghost,Generation 7,Fireworks Pokémon
+806,Zeraora,807,Electric,None,Generation 7,Thunderclap Pokémon
+807,Meltan,808,Steel,None,Generation 7,Hex Nut Pokémon
+808,Melmetal,809,Steel,None,Generation 7,Hex Nut Pokémon
