@@ -36,8 +36,9 @@ def file_name(image_url):
     """
     url_split = image_url.split("/")
     fname = url_split[-1]
-    if '.jpg' in fname:
-        fname = fname[:-4]
+    #if '.jpg' in fname:
+        #fname = fname[:-4]
+        #fname = fname + '.png'
     return fname
 
 
@@ -116,7 +117,7 @@ if __name__ == "__main__":
     for url in urls:
         req = Request(url, headers={'User-Agent': 'Chrome/41.0.2228.0'})
         resource = urlopen(req)
-        output = open(file_name(url) + ".png", "wb")
+        output = open(file_name(url), "wb")
         output.write(resource.read())
         output.close()
 
