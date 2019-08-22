@@ -3,6 +3,7 @@ import os
 import shutil
 import sys
 import pandas as pd
+import numpy as np
 
 sys.path.append('/Users/tanya/PycharmProjects/Webscraping/pokemon-classifier')
 
@@ -44,9 +45,21 @@ def import_df(fname):
     :param fname:
     :return:
     """
-    df = pd.read_csv(test_path + fname)
-    df.drop(df.columns[0], axis=1)
+
+    df = pd.read_csv(test_path + fname, index_col=0)
     return df
+
+
+def get_poke_name(file_path):
+    split_path = file_path.split('/')
+    split_nametype = split_path[-1].split('_')
+    split_subname = split_nametype[0]
+    if '(' in split_subname:
+        split_name = split_subname.split('(')
+        poke_name = split_name[-2]
+    else:
+        poke_name = split_subname
+    return poke_name
 
 
 def labeled_csv(path, poke_df):
@@ -62,32 +75,33 @@ def labeled_csv(path, poke_df):
         for file in f:
             if '.jpg' in file:
                 files.append(os.path.join(r, file))
-
-    # check which pokemon
     labels = []
-    poke_foldername = []
-    for file in files:
-        split_path = file.split('/')
-        poke_foldername = split_path[-2]
-        #for row in poke_df.iterrows():
-        #for folder in poke_foldername:
-        for index, row in poke_df.iterrows():
-            if row['Name'] == poke_foldername:
-                labels.append(row['id'])
-            else:
-                labels.append('Not Found')
-            print("#")
+    print("@@@@@")
 
-        # labels.append(poke_df.loc[(poke_df['Name'] == poke_foldername), 'id'])
+    for file in files:
+        poke_name = get_poke_name(file)
+
+        rows_ = np.where(poke_df['Name'] == poke_name)
+        print(rows_)
+        for r in rows_:
+            """
+            if r == (array([], dtype=int64),):
+                labels.append(None)
+            else:"""
+            labels.append(poke_df.iloc[r, 1].values[0])
+
     print(labels)
+
     poke_label_dict = {'File': files, 'Label': labels}
-    print(poke_label_dict)
+    labeled_df = pd.DataFrame(poke_label_dict)
+    labeled_df.to_csv(train_path + 'poke_file_labels.csv')
 
 
 if __name__ == "__main__":
     files_to_move = read_unprocessed(Unprocessed_path)
     move_files(files_to_move, train_path)
     poke_df = import_df('pokemondb.csv')
+    """
     with pd.option_context('display.max_rows', None, 'display.max_columns', None):
-        print(poke_df)
+        print(poke_df)"""
     labeled_csv(train_path, poke_df)
