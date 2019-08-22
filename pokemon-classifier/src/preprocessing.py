@@ -94,7 +94,7 @@ def labeled_csv(path, poke_df):
 
     poke_label_dict = {'File': files, 'Label': labels}
     labeled_df = pd.DataFrame(poke_label_dict)
-    labeled_df.to_csv(test_path + 'poke_file_labels.csv')
+    labeled_df.to_csv(train_path + 'poke_file_labels.csv')
 
 
 if __name__ == "__main__":
