@@ -1,11 +1,806 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a4b99dc-bc63-4d8d-a75b-bb78999acf44" name="Default Changelist" comment="Deleting Pokemons with unusual names/file names. Removed pokemons include: Nidoran(M), Nidoran(F), Tapu-Fini, Tapu-Bulu, Tapu-Koko, Tapu-Lele, Mr.Mime, Type Null, Mime Jr., Ho-oh, and Flabebe.">
+    <list default="true" id="2a4b99dc-bc63-4d8d-a75b-bb78999acf44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokemon-classifier/src/model/ConvNeuralNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon-classifier/src/model/ConvNeuralNet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokemon-classifier/src/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon-classifier/src/preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokemon-classifier/src/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon-classifier/src/train_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/abomasnow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/abra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/absol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/accelgor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/aegislash-blade.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/aerodactyl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/aggron.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/aipom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/alakazam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/alomomola.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/altaria.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/amaura.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/ambipom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/amoonguss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/ampharos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/anorith.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/araquanid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/arbok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/arcanine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/arceus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/archen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/archeops.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/ariados.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/armaldo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/aromatisse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/aron.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/articuno.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/audino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/aurorus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/avalugg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/axew.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/azelf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/azumarill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/azurill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/bagon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/baltoy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/banette.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/barbaracle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/barboach.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/basculin-red-striped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/bastiodon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/bayleef.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/beartic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/beautifly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/beedrill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/beheeyem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/beldum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/bellossom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/bellsprout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/bergmite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/bewear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/bibarel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/bidoof.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/binacle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/bisharp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/blacephalon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/blastoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/blaziken.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/blissey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/blitzle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/boldore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/bonsly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/bouffalant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/bounsweet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/braixen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/braviary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/breloom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/brionne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/bronzong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/bronzor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/bruxish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/budew.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/buizel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/bulbasaur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/buneary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/bunnelby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/burmy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/butterfree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/buzzwole.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cacnea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cacturne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/camerupt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/carbink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/carnivine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/carracosta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/carvanha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cascoon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/castform.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/caterpie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/celebi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/celesteela.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/chandelure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/chansey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/charizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/charjabug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/charmander.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/charmeleon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/chatot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cherrim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cherubi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/chesnaught.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/chespin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/chikorita.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/chimchar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/chimecho.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/chinchou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/chingling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cinccino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/clamperl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/clauncher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/clawitzer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/claydol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/clefable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/clefairy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cleffa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cloyster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cobalion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cofagrigus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/combee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/combusken.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/comfey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/conkeldurr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/corphish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/corsola.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cosmoem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cosmog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cottonee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/crabominable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/crabrawler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cradily.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cranidos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/crawdaunt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cresselia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/croagunk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/crobat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/croconaw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/crustle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cryogonal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cubchoo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cubone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cutiefly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/cyndaquil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/darkrai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/darmanitan-standard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/dartrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/darumaka.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/decidueye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/dedenne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/deerling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/deino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/delcatty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/delibird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/delphox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/deoxys-normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/dewgong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/dewott.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/dewpider.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/dhelmise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/dialga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/diancie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/diggersby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/diglett.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/ditto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/dodrio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/doduo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/donphan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/doublade.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/dragalge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/dragonair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/dragonite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/drampa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/drapion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/dratini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/drifblim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/drifloon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/drilbur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/drowzee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/druddigon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/ducklett.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/dugtrio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/dunsparce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/duosion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/durant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/dusclops.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/dusknoir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/duskull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/dustox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/dwebble.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/eelektrik.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/eelektross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/eevee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/ekans.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/electabuzz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/electivire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/electrike.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/electrode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/elekid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/elgyem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/emboar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/emolga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/empoleon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/entei.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/escavalier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/espeon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/espurr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/excadrill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/exeggcute.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/exeggutor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/exploud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/farfetchd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/fearow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/feebas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/fennekin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/feraligatr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/ferroseed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/ferrothorn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/finneon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/flaaffy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/flareon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/fletchinder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/fletchling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/floatzel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/floette.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/florges.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/flygon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/fomantis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/foongus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/forretress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/fraxure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/frillish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/froakie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/frogadier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/froslass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/furfrou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/furret.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gabite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gallade.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/galvantula.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/garbodor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/garchomp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gardevoir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gastly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gastrodon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/genesect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gengar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/geodude.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gible.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gigalith.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/girafarig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/giratina-altered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/glaceon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/glalie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/glameow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gligar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gliscor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gloom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gogoat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/golbat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/goldeen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/golduck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/golem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/golett.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/golisopod.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/golurk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/goodra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/goomy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gorebyss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gothita.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gothitelle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gothorita.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gourgeist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/granbull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/graveler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/greninja.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/grimer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/grotle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/groudon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/grovyle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/growlithe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/grubbin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/grumpig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gulpin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gumshoos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gurdurr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/guzzlord.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/gyarados.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/hakamo-o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/happiny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/hariyama.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/haunter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/hawlucha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/haxorus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/heatmor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/heatran.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/heliolisk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/helioptile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/heracross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/herdier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/hippopotas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/hippowdon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/hitmonchan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/hitmonlee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/hitmontop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/honchkrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/honedge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/hoopa-confined.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/hoothoot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/hoppip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/horsea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/houndoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/houndour.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/huntail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/hydreigon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/hypno.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/igglybuff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/illumise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/incineroar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/infernape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/inkay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/ivysaur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/jangmo-o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/jellicent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/jigglypuff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/jirachi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/jolteon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/joltik.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/jumpluff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/jynx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/kabuto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/kabutops.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/kadabra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/kakuna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/kangaskhan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/karrablast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/kartana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/kecleon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/keldeo-ordinary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/kingdra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/kingler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/kirlia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/klang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/klefki.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/klink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/klinklang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/koffing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/komala.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/kommo-o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/krabby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/kricketot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/kricketune.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/krokorok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/krookodile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/kyogre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/kyurem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/lairon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/lampent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/landorus-incarnate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/lanturn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/lapras.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/larvesta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/larvitar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/latias.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/latios.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/leafeon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/leavanny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/ledian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/ledyba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/lickilicky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/lickitung.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/liepard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/lileep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/lilligant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/lillipup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/linoone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/litleo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/litten.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/litwick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/lombre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/lopunny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/lotad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/loudred.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/lucario.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/ludicolo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/lugia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/lumineon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/lunala.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/lunatone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/lurantis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/luvdisc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/luxio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/luxray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/lycanroc-midday.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/machamp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/machoke.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/machop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/magby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/magcargo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/magearna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/magikarp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/magmar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/magmortar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/magnemite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/magneton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/magnezone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/makuhita.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/malamar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/mamoswine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/manaphy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/mandibuzz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/manectric.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/mankey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/mantine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/mantyke.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/maractus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/mareanie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/mareep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/marill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/marowak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/marshadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/marshtomp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/masquerain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/mawile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/medicham.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/meditite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/meganium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/melmetal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/meloetta-aria.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/meltan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/meowstic-male.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/meowth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/mesprit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/metagross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/metang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/metapod.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/mew.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/mewtwo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/mienfoo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/mienshao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/mightyena.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/milotic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/miltank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/mimikyu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/minccino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/minior-meteor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/minun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/misdreavus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/mismagius.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/moltres.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/monferno.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/morelull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/mothim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/mudbray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/mudkip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/mudsdale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/muk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/munchlax.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/munna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/murkrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/musharna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/naganadel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/natu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/necrozma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/nidoking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/nidoqueen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/nidorina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/nidorino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/nihilego.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/nincada.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/ninetales.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/ninjask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/noctowl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/noibat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/noivern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/nosepass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/numel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/nuzleaf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/octillery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/oddish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/omanyte.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/omastar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/onix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/oranguru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/oricorio-baile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/oshawott.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pachirisu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/palkia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/palossand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/palpitoad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pancham.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pangoro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/panpour.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pansage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pansear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/paras.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/parasect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/passimian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/patrat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pawniard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pelipper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/persian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/petilil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/phanpy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/phantump.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pheromosa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/phione.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pichu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pidgeot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pidgeotto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pidgey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pidove.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pignite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pikachu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pikipek.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/piloswine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pineco.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pinsir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/piplup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/plusle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/poipole.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/politoed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/poliwag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/poliwhirl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/poliwrath.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/ponyta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/poochyena.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/popplio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/porygon-z.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/porygon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/porygon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/primarina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/primeape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/prinplup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/probopass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/psyduck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pumpkaboo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pupitar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/purrloin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/purugly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pyroar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/pyukumuku.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/quagsire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/quilava.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/quilladin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/qwilfish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/raichu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/raikou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/ralts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/rampardos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/rapidash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/raticate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/rattata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/rayquaza.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/regice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/regigigas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/regirock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/registeel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/relicanth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/remoraid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/reshiram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/reuniclus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/rhydon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/rhyhorn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/rhyperior.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/ribombee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/riolu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/rockruff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/roggenrola.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/roselia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/roserade.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/rotom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/rowlet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/rufflet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/sableye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/salamence.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/salandit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/salazzle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/samurott.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/sandile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/sandshrew.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/sandslash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/sandygast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/sawk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/sawsbuck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/scatterbug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/sceptile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/scizor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/scolipede.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/scrafty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/scraggy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/scyther.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/seadra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/seaking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/sealeo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/seedot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/seel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/seismitoad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/sentret.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/serperior.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/servine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/seviper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/sewaddle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/sharpedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/shaymin-land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/shedinja.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/shelgon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/shellder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/shellos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/shelmet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/shieldon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/shiftry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/shiinotic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/shinx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/shroomish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/shuckle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/shuppet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/sigilyph.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/silcoon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/silvally.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/simipour.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/simisage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/simisear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/skarmory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/skiddo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/skiploom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/skitty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/skorupi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/skrelp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/skuntank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/slaking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/slakoth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/sliggoo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/slowbro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/slowking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/slowpoke.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/slugma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/slurpuff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/smeargle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/smoochum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/sneasel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/snivy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/snorlax.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/snorunt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/snover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/snubbull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/solgaleo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/solosis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/solrock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/spearow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/spewpa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/spheal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/spinarak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/spinda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/spiritomb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/spoink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/spritzee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/squirtle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/stakataka.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/stantler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/staraptor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/staravia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/starly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/starmie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/staryu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/steelix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/steenee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/stoutland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/stufful.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/stunfisk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/stunky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/sudowoodo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/suicune.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/sunflora.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/sunkern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/surskit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/swablu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/swadloon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/swalot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/swampert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/swanna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/swellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/swinub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/swirlix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/swoobat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/sylveon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/taillow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/talonflame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/tangela.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/tangrowth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/tauros.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/teddiursa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/tentacool.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/tentacruel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/tepig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/terrakion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/throh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/thundurus-incarnate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/timburr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/tirtouga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/togedemaru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/togekiss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/togepi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/togetic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/torchic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/torkoal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/tornadus-incarnate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/torracat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/torterra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/totodile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/toucannon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/toxapex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/toxicroak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/tranquill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/trapinch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/treecko.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/trevenant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/tropius.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/trubbish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/trumbeak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/tsareena.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/turtonator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/turtwig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/tympole.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/tynamo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/typhlosion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/tyranitar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/tyrantrum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/tyrogue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/tyrunt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/umbreon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/unfezant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/unown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/ursaring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/uxie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/vanillish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/vanillite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/vanilluxe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/vaporeon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/venipede.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/venomoth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/venonat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/venusaur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/vespiquen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/vibrava.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/victini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/victreebel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/vigoroth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/vikavolt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/vileplume.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/virizion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/vivillon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/volbeat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/volcanion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/volcarona.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/voltorb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/vullaby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/vulpix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/wailmer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/wailord.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/walrein.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/wartortle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/watchog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/weavile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/weedle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/weepinbell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/weezing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/whimsicott.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/whirlipede.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/whiscash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/whismur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/wigglytuff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/wimpod.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/wingull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/wishiwashi-solo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/wobbuffet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/woobat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/wooper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/wormadam-plant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/wurmple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/wynaut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/xatu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/xerneas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/xurkitree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/yamask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/yanma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/yanmega.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/yungoos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/yveltal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/zangoose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/zapdos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/zebstrika.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/zekrom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/zeraora.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/zigzagoon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/zoroark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/zorua.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/zubat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/zweilous.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon-classifier/data/test/zygarde-50.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,13 +813,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pokemon-classifier/src/train_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="45">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pokemon-classifier/data/test/scrape.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -33,7 +840,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pokemon-classifier/src/model/ConvNeuralNet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
+            <state>
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -88,18 +895,18 @@
         <option value="$PROJECT_DIR$/test2.py" />
         <option value="$PROJECT_DIR$/scrape.py" />
         <option value="$PROJECT_DIR$/pokemon-classifier/data/test/scrape_processing.py" />
-        <option value="$PROJECT_DIR$/pokemon-classifier/data/test/scrape.py" />
         <option value="$PROJECT_DIR$/pokemon-classifier/src/model/test.py" />
         <option value="$PROJECT_DIR$/pokemon-classifier/data/test/pokemondb.csv" />
         <option value="$PROJECT_DIR$/pokemon-classifier/src/model/ConvNeuralNet.py" />
         <option value="$PROJECT_DIR$/pokemon-classifier/src/preprocessing.py" />
         <option value="$PROJECT_DIR$/pokemon-classifier/src/train_model.py" />
+        <option value="$PROJECT_DIR$/pokemon-classifier/data/test/scrape.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="796" />
-    <option name="y" value="297" />
+    <option name="x" value="449" />
+    <option name="y" value="23" />
     <option name="width" value="1535" />
     <option name="height" value="855" />
   </component>
@@ -109,6 +916,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,26 +940,18 @@
               <item name="Webscraping" type="462c0819:PsiDirectoryNode" />
               <item name="pokemon-classifier" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="train" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Webscraping" type="b2602c69:ProjectViewProjectNode" />
               <item name="Webscraping" type="462c0819:PsiDirectoryNode" />
               <item name="pokemon-classifier" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Webscraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Webscraping" type="462c0819:PsiDirectoryNode" />
-              <item name="pokemon-classifier" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,7 +979,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.preprocessing">
+  <component name="RunManager" selected="Python.scrape">
     <configuration name="preprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Webscraping" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,9 +1087,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.scrape" />
         <item itemvalue="Python.preprocessing" />
         <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.scrape" />
         <item itemvalue="Python.scrape_processing" />
         <item itemvalue="Python.test2" />
       </list>
@@ -313,7 +1113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566327477756</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Deleting Pokemons with unusual names/file names. Removed pokemons include: Nidoran(M), Nidoran(F), Tapu-Fini, Tapu-Bulu, Tapu-Koko, Tapu-Lele, Mr.Mime, Type Null, Mime Jr., Ho-oh, and Flabebe.">
+      <created>1566488961640</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566488961641</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Deleting Pokemons with unusual names/file names. Removed pokemons include: Nidoran(M), Nidoran(F), Tapu-Fini, Tapu-Bulu, Tapu-Koko, Tapu-Lele, Mr.Mime, Type Null, Mime Jr., Ho-oh, and Flabebe.">
+      <created>1566492133733</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566492133733</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -326,20 +1140,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="991" y="225" width="1535" height="855" extended-state="0" />
-    <editor active="true" />
+    <frame x="449" y="23" width="1535" height="855" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.888999" visible="true" weight="0.23976222" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.888999" visible="true" weight="0.23976222" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.11100099" side_tool="true" weight="0.23976222" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903865" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.81439894" weight="0.37462834" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.81439894" visible="true" weight="0.37352556" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903865" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32896462" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32896462" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.85799205" weight="0.32903865" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.14266843" side_tool="true" weight="0.32903865" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4993395" weight="0.32903865" />
@@ -369,9 +1182,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pokemon-classifier/data/train/Abomasnow(Mega)_13.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pokemon-classifier/data/train/Abomasnow(Mega)_17.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -507,11 +1317,25 @@
     <entry file="file://$PROJECT_DIR$/pokemon-classifier/data/test/accelgor.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pokemon-classifier/src/model/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/pokemon-classifier/src/model/test.py" />
+    <entry file="file://$PROJECT_DIR$/pokemon-classifier/src/train_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pokemon-classifier/src/output.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/pokemon-classifier/src/model/ConvNeuralNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pokemon-classifier/src/preprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -520,21 +1344,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pokemon-classifier/src/model/ConvNeuralNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/pokemon-classifier/src/output.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pokemon-classifier/src/train_model.py">
+    <entry file="file://$PROJECT_DIR$/pokemon-classifier/data/test/scrape.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="52">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
